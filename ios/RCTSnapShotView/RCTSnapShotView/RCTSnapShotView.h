@@ -6,7 +6,7 @@
 //  Copyright © 2016 gemini. All rights reserved.
 //
 
-#import "RCTView.h"
+#import <React/RCTView.h"
 
 @interface RCTSnapShotView : RCTView
 

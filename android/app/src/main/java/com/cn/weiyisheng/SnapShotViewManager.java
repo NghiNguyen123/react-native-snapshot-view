@@ -1,4 +1,4 @@
-package com.cn.weiyisheng.snapshot;
+package com.cn.weiyisheng;
 
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;

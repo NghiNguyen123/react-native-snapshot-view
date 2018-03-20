@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTViewManager.h"
+#import <React/RCTViewManager.h>
 
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 @interface RCTSnapShotViewManager : RCTViewManager
 

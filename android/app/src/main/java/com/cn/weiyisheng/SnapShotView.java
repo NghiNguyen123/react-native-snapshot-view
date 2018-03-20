@@ -1,4 +1,4 @@
-package com.cn.weiyisheng.snapshot;
+package com.cn.weiyisheng;
 
 import android.content.Context;
 import android.database.Cursor;
