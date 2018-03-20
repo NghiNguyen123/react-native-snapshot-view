@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { View, requireNativeComponent, NativeAppEventEmitter } from 'react-native'
 
 class SnapShotView extends React.Component {
@@ -10,9 +11,9 @@ class SnapShotView extends React.Component {
 
 SnapShotView.propTypes = {
   ...View.propTypes,
-  shotNumber: React.PropTypes.number,
-  fileName: React.PropTypes.string,
-  onShoted: React.PropTypes.func
+  shotNumber: PropTypes.number,
+  fileName: PropTypes.string,
+  onShoted: PropTypes.func
 }
 
 const RCTSnapShot = requireNativeComponent('RCTSnapShotView', SnapShotView)
